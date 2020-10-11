@@ -2,10 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap 4 Responsive Layout Example</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link href="portfolio.css" rel="stylesheet">
+
+
+    <script src="portfolio.js"></script>
+
+
+    <link href="styles.css" rel="stylesheet">
+
 
 
 </head>
@@ -20,7 +32,7 @@
 
 <div>
 <!--This is the navbar-->
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
     <div class="container-fluid">
       <div class="navbar-header">
         <a class="navbar-brand" href="#">Respnsive Portfolio HW 2</a>
@@ -43,32 +55,32 @@
     <!-- Full-width images with number text -->
     <div class="mySlides">
       <div class="numbertext">1 / 6</div>
-        <img src="img_woods_wide.jpg" style="width:100%">
+        <img src="image1.jpg" style="width:100%">
     </div>
   
     <div class="mySlides">
       <div class="numbertext">2 / 6</div>
-        <img src="img_5terre_wide.jpg" style="width:100%">
+        <img src="image 2.jpg" style="width:100%">
     </div>
   
     <div class="mySlides">
       <div class="numbertext">3 / 6</div>
-        <img src="img_mountains_wide.jpg" style="width:100%">
+        <img src="image 3.jpg" style="width:100%">
     </div>
   
     <div class="mySlides">
       <div class="numbertext">4 / 6</div>
-        <img src="img_lights_wide.jpg" style="width:100%">
+        <img src="image4.webp" style="width:100%">
     </div>
   
     <div class="mySlides">
       <div class="numbertext">5 / 6</div>
-        <img src="img_nature_wide.jpg" style="width:100%">
+        <img src="image 5 .png" style="width:100%">
     </div>
   
     <div class="mySlides">
       <div class="numbertext">6 / 6</div>
-        <img src="img_snow_wide.jpg" style="width:100%">
+        <img src="image6.png" style="width:100%">
     </div>
   
     <!-- Next and previous buttons -->
@@ -83,24 +95,28 @@
     <!-- Thumbnail images -->
     <div class="row">
       <div class="column">
-        <img class="demo cursor" src="img_woods.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+        <img class="demo cursor" src="image1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
       </div>
       <div class="column">
-        <img class="demo cursor" src="img_5terre.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+        <img class="demo cursor" src="image 2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
       </div>
       <div class="column">
-        <img class="demo cursor" src="img_mountains.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+        <img class="demo cursor" src="image 3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
       </div>
       <div class="column">
-        <img class="demo cursor" src="img_lights.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+        <img class="demo cursor" src="image4.webp" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
       </div>
       <div class="column">
-        <img class="demo cursor" src="img_nature.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+        <img class="demo cursor" src="image 5 .png" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
       </div>
       <div class="column">
-        <img class="demo cursor" src="img_snow.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+        <img class="demo cursor" src="image6.png" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
       </div>
     </div>
+
+
+
+    
   </div>
 
 
